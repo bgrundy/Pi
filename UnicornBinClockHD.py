@@ -55,9 +55,8 @@ width = 12 # define the 'width' of the binary
 def main():
     # rotate so the bottom right is the origin rather
     # than the bottom left.
-    # unicornhathd.rotate(180)
     unicornhathd.clear()
-    unicornhathd.rotation(90)
+    unicornhathd.rotation(90) # rotate display 90 deg
     # print the border (in blue)
     for x in range(16):
         # First two columns, last two
