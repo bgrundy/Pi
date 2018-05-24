@@ -57,6 +57,7 @@ def main():
     # than the bottom left.
     # unicornhathd.rotate(180)
     unicornhathd.clear()
+    unicornhathd.rotation(90)
     # print the border (in blue)
     for x in range(16):
         # First two columns, last two
