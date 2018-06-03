@@ -22,7 +22,10 @@ Purpose: Binary clock made using a Pimoroni Unicorn
          (16x16).
 Usage:   There are no options for this initial
          release.
-Version: 1.0 - initial 20180518
+Version:
+    1.1 - Changed the blue border to lower value to
+          save power
+    1.0 - initial 20180518
 '''
 
 ####################################################
@@ -67,10 +70,10 @@ def main():
             # pass the horizontal pos,
             # vertical pos, then the 
             # amount of red, grn, blue
-                unicornhathd.set_pixel(x,y,0,0,255)
+                unicornhathd.set_pixel(x,y,0,0,64)
         else:
             for y in (0,1,14,15):
-                unicornhathd.set_pixel(x,y,0,0,255)
+                unicornhathd.set_pixel(x,y,0,0,64)
     try:
         while True:
             # get the date values and place them in a tuple
